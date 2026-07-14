@@ -31,7 +31,9 @@
                 android:layout_height="wrap_content"
                 android:hint="Search name, company, phone, email"
                 android:inputType="text"
-                android:maxLines="1" />
+                android:maxLines="1"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
